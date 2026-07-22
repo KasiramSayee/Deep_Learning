@@ -20,6 +20,7 @@ To ensure reproducibility, clarity, and modularity, every experiment is encapsul
 | Week / Exp # | Experiment Name | Folder Link | Key Topics & Algorithms | Status |
 | :---: | :--- | :--- | :--- | :---: |
 | **Week 1 - Exp 1** | **Single-Layer Perceptron** | [`Perceptron/`](Perceptron/) | Perceptron learning rule, step activation, binary classification, Banknote Authentication dataset | Completed |
+| **Week 2 - Exp 2** | **Multi-Layer Perceptron (MLP)** | [`MLP/`](MLP/) | Keras Sequential API, dense layers, ReLU/Softmax, multi-class classification, Fashion-MNIST dataset, hyperparameter optimization (`RandomizedSearchCV`) | Completed |
 
 ---
 
@@ -41,17 +42,31 @@ source venv/bin/activate
 ```
 
 ### 3. Navigate to an Experiment & Install Dependencies
+Navigate into your desired experiment folder (`Perceptron` or `MLP`) and install its specific dependencies:
 ```bash
+# Example for Single-Layer Perceptron:
 cd Perceptron
+pip install -r requirements.txt
+
+# Or for Multi-Layer Perceptron (MLP):
+cd ../MLP
 pip install -r requirements.txt
 ```
 
 ### 4. Run the Experiment
 You can execute the standalone script:
 ```bash
+# Inside Perceptron/:
 python perceptron.py
+
+# Inside MLP/:
+python mlp.py
 ```
 Or launch the interactive Jupyter Notebook:
 ```bash
+# Inside Perceptron/:
 jupyter notebook perceptron.ipynb
+
+# Inside MLP/:
+jupyter notebook mlp.ipynb
 ```

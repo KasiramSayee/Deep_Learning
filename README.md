@@ -19,7 +19,7 @@ To ensure reproducibility, clarity, and modularity, every experiment is encapsul
 
 | Week / Exp # | Experiment Name | Folder Link | Key Topics & Algorithms | Status |
 | :---: | :--- | :--- | :--- | :---: |
-| **Week 1 - Exp 1** | **Single-Layer Perceptron** | [`Perceptron/`](Perceptron/) | Perceptron learning rule, step activation, binary classification, Banknote Authentication dataset | Completed |
+| **Week 1 - Exp 1** | **Single-Layer Perceptron** | [`Perceptron/`](Perceptron/) | Perceptron learning rule, step activation, binary classification, Banknote Authentication dataset, Logic Gates (AND, OR, NOT, XOR) | Completed |
 | **Week 2 - Exp 2** | **Multi-Layer Perceptron (MLP)** | [`MLP/`](MLP/) | Keras Sequential API, dense layers, ReLU/Softmax, multi-class classification, Fashion-MNIST dataset, hyperparameter optimization (`RandomizedSearchCV`) | Completed |
 
 ---

@@ -6,6 +6,8 @@
 3. Perform Exploratory Data Analysis (EDA) and data preprocessing (scaling and splitting) on the Banknote Authentication dataset.
 4. Train and evaluate the Perceptron model using standard classification metrics (Accuracy, Precision, Recall, F1-Score, Confusion Matrix).
 5. Analyze and visualize model convergence, weight evolution, bias adjustments, and learning rate impacts.
+6. Apply the Perceptron algorithm to learn basic logic gates (AND, OR, NOT) and plot their decision boundaries.
+7. Analyze the limitations of a single-layer Perceptron by attempting to learn the XOR gate, visualizing the decision boundary to identify why it fails to converge.
 
 ---
 
@@ -80,3 +82,5 @@ You can run this experiment either via the **Jupyter Notebook** (interactive ste
    - **Task 4 & 5**: Perceptron class instantiation and model training over `100` epochs.
    - **Task 6**: Performance metrics evaluation and confusion matrix visualization.
    - **Task 7**: In-depth analysis of training error curves, weight/bias evolution over epochs, and learning rate comparison (`0.001`, `0.01`, `0.1`).
+   - **Task 8**: Logic Gates Implementation for OR, NOT, and AND gates (plotting the decision boundary after each epoch).
+   - **Task 9**: XOR Gate Implementation and analysis of linear separability limits.

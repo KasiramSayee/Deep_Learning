@@ -22,6 +22,7 @@ To ensure reproducibility, clarity, and modularity, every experiment is encapsul
 | **Week 1 - Exp 1** | **Single-Layer Perceptron** | [`Perceptron/`](Perceptron/) | Perceptron learning rule, step activation, binary classification, Banknote Authentication dataset, Logic Gates (AND, OR, NOT, XOR) | Completed |
 | **Week 2 - Exp 2** | **Multi-Layer Perceptron (MLP)** | [`MLP/`](MLP/) | Keras Sequential API, dense layers, ReLU/Softmax, multi-class classification, Fashion-MNIST dataset, hyperparameter optimization (`RandomizedSearchCV`) | Completed |
 | **Week 3 - Exp 3** | **Convolutional Neural Network (CNN)** | [`CNN/`](CNN/) | PyTorch `nn.Module`, Convolutional layers, Max/Avg Pooling, feature map visualization, CIFAR-10 classification | Completed |
+| **Week 4 - Exp 4** | **Transfer Learning with VGG16** | [`Transfer Learning/`](Transfer Learning/) | PyTorch `torchvision`, VGG16 pre-trained model, Feature Extraction, Fine-tuning, CIFAR-10 classification | Completed |
 
 ---
 
@@ -43,7 +44,7 @@ source venv/bin/activate
 ```
 
 ### 3. Navigate to an Experiment & Install Dependencies
-Navigate into your desired experiment folder (`Perceptron`, `MLP`, or `CNN`) and install its specific dependencies:
+Navigate into your desired experiment folder (`Perceptron`, `MLP`, `CNN`, or `Transfer Learning`) and install its specific dependencies:
 ```bash
 # Example for Single-Layer Perceptron:
 cd Perceptron
@@ -55,6 +56,10 @@ pip install -r requirements.txt
 
 # Or for Convolutional Neural Network (CNN):
 cd ../CNN
+pip install -r requirements.txt
+
+# Or for Transfer Learning:
+cd "../Transfer Learning"
 pip install -r requirements.txt
 ```
 
@@ -69,6 +74,9 @@ python mlp.py
 
 # Inside CNN/:
 python cnn.py
+
+# Inside Transfer Learning/:
+python transfer_learning.py
 ```
 Or launch the interactive Jupyter Notebook:
 ```bash
@@ -80,4 +88,7 @@ jupyter notebook mlp.ipynb
 
 # Inside CNN/:
 jupyter notebook cnn.ipynb
+
+# Inside Transfer Learning/:
+jupyter notebook Transfer_Learning.ipynb
 ```

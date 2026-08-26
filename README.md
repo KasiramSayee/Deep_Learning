@@ -23,6 +23,7 @@ To ensure reproducibility, clarity, and modularity, every experiment is encapsul
 | **Week 2 - Exp 2** | **Multi-Layer Perceptron (MLP)** | [`MLP/`](MLP/) | Keras Sequential API, dense layers, ReLU/Softmax, multi-class classification, Fashion-MNIST dataset, hyperparameter optimization (`RandomizedSearchCV`) | Completed |
 | **Week 3 - Exp 3** | **Convolutional Neural Network (CNN)** | [`CNN/`](CNN/) | PyTorch `nn.Module`, Convolutional layers, Max/Avg Pooling, feature map visualization, CIFAR-10 classification | Completed |
 | **Week 4 - Exp 4** | **Transfer Learning with VGG16** | [`Transfer Learning/`](Transfer Learning/) | PyTorch `torchvision`, VGG16 pre-trained model, Feature Extraction, Fine-tuning, CIFAR-10 classification | Completed |
+| **Week 5 - Exp 5** | **Comprehensive CNN Study** | [`Comprehensive CNN/`](Comprehensive%20CNN/) | MobileNetV2, Oxford-IIIT Pet Dataset, Weight Initialization, Regularization, Optimizers, Hyperparameter Tuning, Transfer Learning, K-Fold CV | Completed |
 
 ---
 
@@ -44,7 +45,7 @@ source venv/bin/activate
 ```
 
 ### 3. Navigate to an Experiment & Install Dependencies
-Navigate into your desired experiment folder (`Perceptron`, `MLP`, `CNN`, or `Transfer Learning`) and install its specific dependencies:
+Navigate into your desired experiment folder (`Perceptron`, `MLP`, `CNN`, `Transfer Learning`, or `Comprehensive CNN`) and install its specific dependencies:
 ```bash
 # Example for Single-Layer Perceptron:
 cd Perceptron
@@ -60,6 +61,10 @@ pip install -r requirements.txt
 
 # Or for Transfer Learning:
 cd "../Transfer Learning"
+pip install -r requirements.txt
+
+# Or for Comprehensive CNN:
+cd "../Comprehensive CNN"
 pip install -r requirements.txt
 ```
 
@@ -77,6 +82,9 @@ python cnn.py
 
 # Inside Transfer Learning/:
 python transfer_learning.py
+
+# Inside Comprehensive CNN/:
+python comprehensive_cnn.py
 ```
 Or launch the interactive Jupyter Notebook:
 ```bash
@@ -91,4 +99,7 @@ jupyter notebook cnn.ipynb
 
 # Inside Transfer Learning/:
 jupyter notebook Transfer_Learning.ipynb
+
+# Inside Comprehensive CNN/:
+jupyter notebook comprehensive_cnn.ipynb
 ```
